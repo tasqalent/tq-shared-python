@@ -7,7 +7,7 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='tasqalent-shared',
-    version='1.0.0',
+    version='1.0.1',
     description='Shared utilities, types and helpers for TASQALENT (Python/Flask)',
     long_description=long_description,
     long_description_content_type='text/markdown',
