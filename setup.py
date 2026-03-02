@@ -7,14 +7,14 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='tasqalent-shared',
-    version='1.0.2',
+    version='1.0.3',
     description='Shared utilities, types and helpers for TASQALENT (Python/Flask)',
     long_description=long_description,
     long_description_content_type='text/markdown',
     author='Youssef Tawakal',
     author_email='youssef7931@gmail.com',
     url='https://github.com/tasqalent/tq-shared-python',
-    packages=find_packages(),
+    packages=find_packages(include=["tasqalent*"]),
     python_requires='>=3.8',
     install_requires=[
         'structlog>=24.0.0'
@@ -33,6 +33,8 @@ setup(
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.10',
-        'Programming Language :: Python :: 3.11'
+        'Programming Language :: Python :: 3.11',
+        'Programming Language :: Python :: 3.12',
+        'Programming Language :: Python :: 3.13'
     ]
 )

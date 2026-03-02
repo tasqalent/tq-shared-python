@@ -7,7 +7,7 @@ from tasqalent.shared.constants import (
 )
 from tasqalent.shared.types import NotificationPayload
 
-__version__ = '1.0.0'
+__version__ = '1.0.3'
 __all__ = [
     '__version__',
     'NotificationChannel',
